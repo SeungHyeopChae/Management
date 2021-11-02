@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication1
+{
+    static class Program
+    {
+        /// <summary>
+        /// 해당 응용 프로그램의 주 진입점입니다.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form_LOGIN());
+            //Form_MAN Form2 = new Form_MAN();
+            //Application.Run(Form2);
+            //Form_STA Form3 = new Form_STA();
+            //Application.Run(Form3);
+            //Form_CUS Form4 = new Form_CUS();
+            //Application.Run(Form4);
+        }
+    }
+}
